@@ -1,9 +1,9 @@
 <template>
     <div class="counter">
-        <p class="count-label">{{ count }}</p>
+        <p class="count-label">{{ state.count }}</p>
         <div class="input-area">
-            <input type="button" :value="`-${tick}`" @click="onMinusButtonClick" />
-            <input type="button" :value="`+${tick}`" @click="onPlusButtonClick" />
+            <input type="button" :value="`-${state.tick}`" @click="onMinusButtonClick" />
+            <input type="button" :value="`+${state.tick}`" @click="onPlusButtonClick" />
         </div>
     </div>
 </template>

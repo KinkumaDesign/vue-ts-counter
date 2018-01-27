@@ -1,7 +1,7 @@
 <template>
     <div class="app-container">
         <h1>カウンター</h1>
-        <counter />
+        <counter :countData="store.countData" />
     </div>
 </template>
 
