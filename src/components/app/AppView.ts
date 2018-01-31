@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import Counter from "../counter/Counter.vue";
+import CounterView from "../counter/CounterView.vue";
 import {Store} from "../../store/Store";
 
 const App = Vue.extend({
@@ -9,7 +9,7 @@ const App = Vue.extend({
         }
     },
     components:{
-        Counter
+        CounterView
     },
     data(){
         return {

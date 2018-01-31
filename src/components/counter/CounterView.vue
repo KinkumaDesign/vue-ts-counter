@@ -7,5 +7,5 @@
         </div>
     </div>
 </template>
-<style lang="scss" src="./Counter.scss" scoped />
-<script lang="ts" src="./Counter.ts" />
+<style lang="scss" src="./CounterView.scss" scoped />
+<script lang="ts" src="./CounterView.ts" />
