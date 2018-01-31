@@ -1,25 +1,25 @@
 import Vue from 'vue';
-import CountData from "../../store/CountData";
+import Count from "../../store/Count";
 
 const Counter = Vue.extend({
     props:{
-        countData:{
-            type:CountData
+        count:{
+            type:Count
         }
     },
     data(){
         return {
-            state: this.countData.state
+            state: this.count.state
         }
     },
     methods:{
         onMinusButtonClick(){
-            const newCount = this.state.count - this.state.tick;
-            this.countData.setCount(newCount);
+            const newCount = this.count.count - this.count.tick;
+            this.count.count = newCount;
         },
         onPlusButtonClick(){
-            const newCount = this.state.count + this.state.tick;
-            this.countData.setCount(newCount);
+            const newCount = this.count.count + this.count.tick;
+            this.count.count = newCount;
         }
     }
 });

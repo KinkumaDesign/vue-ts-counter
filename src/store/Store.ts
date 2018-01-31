@@ -1,7 +1,7 @@
-import CountData from "./CountData";
+import Count from "./Count";
 
 export class Store {
-    countData:CountData = new CountData();
+    count:Count = new Count();
 
     constructor(){
     }

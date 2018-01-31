@@ -15,6 +15,8 @@ const App = Vue.extend({
         return {
 
         }
+    },
+    methods:{
     }
 });
 export default App;
