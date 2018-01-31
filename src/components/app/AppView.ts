@@ -2,7 +2,7 @@ import Vue from 'vue';
 import CounterView from "../counter/CounterView.vue";
 import {Store} from "../../store/Store";
 
-const App = Vue.extend({
+const AppView = Vue.extend({
     props:{
         store:{
             type:Store
@@ -19,4 +19,4 @@ const App = Vue.extend({
     methods:{
     }
 });
-export default App;
+export default AppView;

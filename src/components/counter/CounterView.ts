@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Count from "../../store/Count";
 
-const Counter = Vue.extend({
+const CounterView = Vue.extend({
     props:{
         count:{
             type:Count
@@ -23,4 +23,4 @@ const Counter = Vue.extend({
         }
     }
 });
-export default Counter;
+export default CounterView;
